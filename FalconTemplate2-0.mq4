@@ -11,6 +11,7 @@
 Falcon v2.0: 
 - Exit rules entail our adaptive volatility trailing stop
 
+-- forked from Lukas170/The-Falcon
 */
 
 //+------------------------------------------------------------------+
