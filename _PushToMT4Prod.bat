@@ -6,14 +6,7 @@ setlocal enabledelayedexpansion
 
 set SOURCE_DIR="%PATH_DSS_Repo%\The-Falcon"
 set DEST_DIR1="%PATH_T1_E%\The-Falcon"
-set DEST_DIR2="%PATH_T2_E%\The-Falcon"
 set DEST_DIR3="%PATH_T3_E%\The-Falcon"
-set DEST_DIR4="%PATH_T4_E%\The-Falcon"
 
 ROBOCOPY %SOURCE_DIR% %DEST_DIR1% *.mq4
-ROBOCOPY %SOURCE_DIR% %DEST_DIR2% *.mq4
 ROBOCOPY %SOURCE_DIR% %DEST_DIR3% *.mq4
-ROBOCOPY %SOURCE_DIR% %DEST_DIR4% *.mq4
-
-
-

@@ -7,7 +7,7 @@ setlocal enabledelayedexpansion
 :: Source Directory where Version Control Repository is located
 set SOURCE_DIR="%PATH_DSS_Repo%\The-Falcon"
 :: Destination Directory where Expert Advisor is located
-set DEST_DIR="%PATH_T2_E%\The-Falcon"
+set DEST_DIR="%PATH_T1_E%\The-Falcon"
 
 ROBOCOPY %SOURCE_DIR% %DEST_DIR% *.mq4
 
