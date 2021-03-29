@@ -4,6 +4,7 @@ rem Use when you need to publish all files to All Terminals
 @echo off
 setlocal enabledelayedexpansion
 
+:: NB: Execute this script with caution!!!
 set SOURCE_DIR="%PATH_DSS_Repo%\The-Falcon"
 set DEST_DIR1="%PATH_T1_E%\The-Falcon"
 set DEST_DIR3="%PATH_T3_E%\The-Falcon"

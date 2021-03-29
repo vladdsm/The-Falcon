@@ -3,6 +3,7 @@ rem Script to Sync Files from Development Terminal to Version Control
 @echo off
 setlocal enabledelayedexpansion
 
+:: NB: Execute this script with caution!!!
 :: Source Directory where Expert Advisor is located
 set SOURCE_DIR="%PATH_T1_E%\The-Falcon"
 :: Destination Directory where Version Control Repository is located

@@ -4,6 +4,7 @@ rem Use in case some content needs to be replaced (reverted from Version Control
 @echo off
 setlocal enabledelayedexpansion
 
+:: NB: Execute this script with caution!!!
 :: Source Directory where Version Control Repository is located
 set SOURCE_DIR="%PATH_DSS_Repo%\The-Falcon"
 :: Destination Directory where Expert Advisor is located
